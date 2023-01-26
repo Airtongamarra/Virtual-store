@@ -1,0 +1,134 @@
+.ikof {
+    font-style: italic;
+    margin-top: 2vh;
+    margin-left: 5vh;
+    text-align: left;
+    float: left;
+    border-radius: 1vw;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    height: 3vh;
+    width: 6vw;
+    text-align: center;
+}
+
+.headerTotal {
+    height: 14vh;
+    background-color: rgb(62, 120, 122);
+}
+
+.header {
+    height: 7vh;
+    text-align: center;
+    border-style: outset;
+}
+
+.navBar {
+    line-height: 6vh;
+}
+
+.search {
+    width: 500px;
+    margin-top: 2vh;
+    height: 3vh;
+}
+
+.options {
+    vertical-align: middle;
+    margin-right: 3vw;
+    font-variant: small-caps;
+}
+
+.options:hover {
+    padding: 0.5%;
+    transition-duration: 0.5s;
+    background-color: gainsboro;
+    border-radius: 1vw;
+    cursor: pointer;
+}
+
+.contents {
+    background-color: rgb(224, 220, 220);
+    height: 86vh;
+    text-align: center;
+  
+}
+
+.benefits {
+    height: 13vh;
+    width: 80vw;
+    background-color: white;
+    display: inline-block;
+    margin-top: 5vh;
+    border-radius: 1vw;
+    box-shadow: 0 9px #999;
+}
+
+.offer,
+.first {
+    height: 13vh;
+    width: 20vw;
+    float: left;
+    text-align: left;
+}
+
+.first {
+    border-right: solid rgb(0, 0, 0) 2px;
+}
+
+.title {
+    margin-top: 3.5vh;
+}
+
+.title,
+.subtitleOff {
+    margin-left: 1vw;
+}
+
+.marketItem {
+    border-radius: 1vw;
+    box-shadow: 0 9px #999;
+    margin-top: 2vh;
+    background-color: white;
+    height: 195px;
+    width: 15vw;
+    float: left;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    overflow: hidden;
+}
+
+.marketItem:hover {
+    transition-duration: 0.5s;
+    height: 330px;
+    transition-timing-function: ease-in;
+}
+
+.marketItem h3 {
+    display: none;
+}
+
+.marketItem:hover h3 {
+    display: block;
+}
+
+.subTitle {
+    margin-bottom: 1vh;
+}
+
+.page {
+    margin-top: 2vh;
+    border-bottom: solid rgb(0, 0, 0) 0.3px;
+    font-variant: small-caps;
+}
+
+.line {
+    border-top: solid rgb(0, 0, 0) 1px;
+    margin-top: 2vh;
+    text-decoration: line-through;
+    color: #999;
+}
+.marketItens{
+    height: auto;
+    display:inline-block;
+}
